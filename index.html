@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+      /* .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      } */
+      body {
+        background-color: hsl(219, 21%, 87%);
+        font-family: outfit;
+        height: 95vh;
+        position: relative;
+      }
+      .container {
+        width: 20rem;
+        height: 32rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 1rem;
+        border-radius: 2rem;
+        text-align: center;
+      }
+      .img {
+        height: 20rem;
+        width: auto;
+        border-radius: 1rem;
+      }
+      .para {
+        padding: 0 1rem;
+      }
+      p {
+        font-size: 17px;
+        font-weight: 200;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-con">
+        <img src="images\image-qr-code.png" class="img" />
+      </div>
+      <div class="para">
+        <h2>Improve your front-end skills by building projects</h2>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Hitesh</a>.
+    </div> -->
+  </body>
+</html>
